@@ -1,0 +1,109 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // variabel
+    int nilai = 90;
+    
+    // tipe data
+    double gpa = 3.75;
+    
+    // for loop
+    for (int i = 1; i <= 5; i++) {
+        cout << "iterasi ke-" << i << endl;
+    }
+    
+    // if statement
+    if (nilai > 80) {
+        cout << "selamat, Anda lulus!" << endl;
+    } else {
+        cout << "Maaf, Anda belum lulus." << endl;
+    }
+    
+    // while loop
+    int j = 1;
+    while (j <= 3) {
+        cout << "perulangan ke-" << j << endl;
+        j++;
+    }
+    
+    // do-While loop
+    int k = 1;
+    do {
+        cout << "perulangan ke-" << k << endl;
+        k++;
+    } while (k <= 3);
+    
+    // array satu dimensi
+    int nilaiMahasiswa[5] = {85, 90, 78, 88, 92};
+    
+    // array multidimensi
+    int matriks[2][2] = {{1, 2}, {3, 4}};
+    
+    // input
+    int usia;
+    cout << "masukkan usia Anda: ";
+    cin >> usia;
+    
+    // output
+    cout << "usia Anda adalah: " << usia << " tahun" << endl;
+    
+    // comment
+    // ini adalah program sederhana perbandingan java dan c++
+    return 0;
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // variabel
+        int nilai = 90;
+        
+        // tipe data
+        double gpa = 3.75;
+        
+        // for loop
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iterasi ke-" + i);
+        }
+        
+        // if statement
+        if (nilai > 80) {
+            System.out.println("Selamat, Anda lulus!");
+        } else {
+            System.out.println("Maaf, Anda belum lulus.");
+        }
+        
+        // while loop
+        int j = 1;
+        while (j <= 3) {
+            System.out.println("Perulangan ke-" + j);
+            j++;
+        }
+        
+        // do-While loop
+        int k = 1;
+        do {
+            System.out.println("Perulangan ke-" + k);
+            k++;
+        } while (k <= 3);
+        
+        // array satu dimensi
+        int[] nilaiMahasiswa = {85, 90, 78, 88, 92};
+        
+        // array multidimensi
+        int[][] matriks = {{1, 2}, {3, 4}};
+        
+        // input
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan usia Anda: ");
+        int usia = input.nextInt();
+        
+        // output
+        System.out.println("Usia Anda adalah: " + usia + " tahun");
+        
+        // comment
+        // ini adalah program perbandingan c++ dan java
+    }
+}
